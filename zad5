@@ -1,0 +1,11 @@
+a = input("podaj pierwsza podstawe: ")
+b = input("podaj druga podstawe: ")
+c = input("podaj wysokosc trapezu: ")
+a=int(a)
+b=int(b)
+c=int(c)
+def pole_trapez(a,b,c):
+    P=(((a+b)*c)/2)
+    return P
+
+print(pole_trapez(a,b,c))
