@@ -1,0 +1,7 @@
+słownik={"Ketchup":"gramy","Jabłko":"kilogramy","Chleb":"sztuki","Bułka":"sztuki"}
+lista=[]
+for key, value in słownik.items():
+    if (value == "sztuki"):
+        lista.append("{key}".format(key=key))
+
+print(lista)
