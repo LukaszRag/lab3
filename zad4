@@ -1,0 +1,14 @@
+a = input("podaj liczbe a: ")
+b = input("podaj liczbe b: ")
+c = input("podaj liczbe c: ")
+a=int(a)
+b=int(b)
+c=int(c)
+def czy_prostokatny(a,b,c):
+    if ((a*a)+(b*b)==(c*c)):
+        print("Trójkąt jest prostokątny")
+    else:
+        print("Trójkąt nie jest prostokątny")
+
+
+print(czy_prostokatny(a,b,c))
