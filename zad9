@@ -1,0 +1,3 @@
+def n_ty_wyraz(a,n,r):
+    an=(a+(n-1))*r
+    return an
