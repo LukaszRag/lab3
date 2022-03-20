@@ -1,0 +1,6 @@
+def lista_zakupow(**produkt):
+    dl = len(produkt)
+    suma= sum(produkt.values())
+    return dl, suma
+
+print(lista_zakupow(Bułka=1, Cola=8, Płatki=5, Baton=3, Ciastka=4))
