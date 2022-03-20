@@ -1,3 +1,4 @@
-def n_ty_wyraz(a,n,r):
-    an=(a+(n-1))*r
-    return an
+import wzory
+
+print(wzory.geometryczny(1,2,4))
+print(wzory.arytmetyczny(1,2,4))
