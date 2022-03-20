@@ -1,0 +1,14 @@
+def il_el_ciagu(a=1, b=4, ile=10):
+    tab = []
+    tab.append(a)
+    for x in range(0, ile-1):
+        y = tab[x]*b
+        tab.append(y)
+
+    c = 1
+    for x in range(0, ile):
+        c = c * tab[x]
+
+    return tab, c
+
+print(il_el_ciagu())
