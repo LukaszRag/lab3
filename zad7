@@ -1,0 +1,15 @@
+def il_el_ciagu(*liczby):
+
+    tab = []
+    tab.append(liczby[0])
+    for x in range(0, liczby[2]-1):
+        y = tab[x]*liczby[1]
+        tab.append(y)
+
+    c = 1
+    for x in range(0, liczby[2]):
+        c = c * tab[x]
+
+    return tab, c
+
+print(il_el_ciagu(1,2,4))
